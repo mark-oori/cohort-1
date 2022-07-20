@@ -1,0 +1,53 @@
+div.container-1{
+    padding: 20px;
+    background: rgb(0, 255, 255) url('./img/223913.jpg') no-repeat fixed center center;
+    height: 30vh;
+}
+div .child-1{
+    padding: 20px;
+    border: 1px solid rgba(255, 99, 71, 0.3);
+    border-width: 25px 10px 5px 7px;
+    border-style: dotted dashed solid;
+}
+div .child-2{
+    border-left: 5px solid dodgerblue;
+}
+div .child-3{
+    border-bottom: 5px solid orange;
+}
+
+/* stylings for container-2 */
+div.container-2{
+    width: 100%;
+    margin: 50px 0px;
+    background-color: rgba(255, 0, 0, 0.102);
+    padding: 50px;
+}
+
+div.container-2 .border{
+    padding: 20px;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+div.container-2 .border-1{
+    /* border styles */
+    border-width: thin;
+    border-style: solid;
+}
+
+div.container-2 .border-2{
+    border-bottom: solid;
+    border-width: thin;
+    border-color: red;
+}
+
+div.container-2 .border-3{
+    border: thin solid rgba(0, 0, 0, 0.338);
+    border-radius: 16px;
+}
+
+div.container-2 .border-4{
+    background-color: rgba(0, 250, 154, 0.146);
+    border-left: thick solid dodgerblue;
+}
