@@ -1,0 +1,8 @@
+body{
+    overflow-x: hidden;
+    width: 2220px;
+}
+.overflow-x{
+    width: 1200px;
+    overflow-x: auto;
+}

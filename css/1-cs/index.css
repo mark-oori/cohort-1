@@ -1,0 +1,24 @@
+.outline-style{
+
+}
+.outline-style .outline{
+    border: 5px solid black;
+    outline: 5px solid red;
+    padding: 12px;
+}
+.text-alignment .text{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgba(255, 0, 0, 0.47);
+}
+.text-alignment .text p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.text-alignment .text a{
+    text-decoration: none;
+}
+
+/* style icons */
+.fas{ font-size: 100px; }
