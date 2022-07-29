@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.vertical-nav{
+    background-color: #f2f2f2;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    padding: 50px 0px;
+}
+.vertical-nav nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.vertical-nav nav ul li{
+    font-size: 18px;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+.vertical-nav nav ul li:hover{
+    background-color: #ffff;
+    border-radius: 0px 20px 20px 0px;
+
+}
+main article{
+    padding: 9px;
+    width: 70%;
+}
